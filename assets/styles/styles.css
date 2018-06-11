@@ -8,11 +8,27 @@ img {
   height: auto;
 }
 
+h1 {
+  font-family: 'Pacifico', cursive;
+  color: #fff;
+}
+
 a {
   color: #333;
 }
 
-.site-header__logo img {
+.site-header {
+  min-height: 60vh;
+  background-color: goldenrod;
+}
+
+.site-header__logo {
+  text-align: center;
   width: 200px;
   height: auto;
+  margin: 0 auto;
+}
+
+.site-header__text {
+  text-align: center;
 }
