@@ -298,7 +298,7 @@ h2 {
 }
 /* Blocks */
 .site-header {
-  min-height: 70vh;
+  min-height: 80vh;
   background-color: #00E1B7;
   background-color: var(--mainGreen);
 }
@@ -328,9 +328,9 @@ h2 {
     }
 .site-header__logo {
     text-align: center;
-    width: 175px;
+    width: 200px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 150px;
   }
 .site-header__title {
     font-size: 5rem;
@@ -348,7 +348,15 @@ h2 {
 }
   }
 .site-footer {
-  display: flex;
-  justify-content: center;
-  padding: 30px 0;
+  min-height: 20vh;
+  text-align: center;
+  background-color: #42586A;
 }
+.site-footer__email {
+    margin-top: 50px;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #fff;
+    color: var(--white);
+  }

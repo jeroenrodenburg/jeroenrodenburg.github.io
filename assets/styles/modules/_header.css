@@ -1,5 +1,5 @@
 .site-header {
-  min-height: 70vh;
+  min-height: 80vh;
   background-color: var(--mainGreen);
   /* background-color: #63C6B8; */
 
@@ -34,9 +34,9 @@
 
   &__logo {
     text-align: center;
-    width: 175px;
+    width: 200px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 150px;
   }
 
   &__title {
