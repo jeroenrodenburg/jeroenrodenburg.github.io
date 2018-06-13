@@ -1,0 +1,22 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--black);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--black);
+}
+
+h2 {
+  color: #fff;
+  font-weight: 100;
+}
