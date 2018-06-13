@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack -p --config ./webpack/webpack.config.js --display-error-details",
-    "watch": "webpack -d --watch --config ./webpack/webpack.config.js --display-error-details",
-    "start": "webpack-dev-server -d --open"
+    "gulpwatch": "gulp watch",
+    "gulpstyles": "gulp styles",
+    "gulpscripts": "gulp scripts"
   },
   "repository": {
     "type": "git",
@@ -24,23 +24,19 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
-    "css-loader": "^0.28.11",
+    "browser-sync": "^2.24.4",
     "cssnano": "^3.10.0",
-    "eslint": "^4.19.1",
-    "eslint-loader": "^2.0.0",
-    "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "file-loader": "^1.1.11",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-watch": "^5.0.0",
     "postcss": "^6.0.22",
     "postcss-import": "^11.1.0",
-    "postcss-loader": "^2.1.5",
     "postcss-nested": "^3.0.0",
     "postcss-preset-env": "^5.1.0",
-    "postcss-syntax": "^0.10.0",
-    "style-loader": "^0.21.0",
-    "stylelint": "^8.4.0",
-    "stylelint-webpack-plugin": "^0.10.5",
     "webpack": "^4.12.0",
-    "webpack-cli": "^3.0.3",
-    "webpack-dev-server": "^3.1.4"
+    "webpack-cli": "^3.0.3"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.0"
   }
 }
