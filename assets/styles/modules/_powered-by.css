@@ -1,0 +1,19 @@
+.powered-by {
+  padding: 20px;
+  
+  &__title {
+    margin-top: 0;
+    text-align: center;
+    font-weight: 100;
+  }
+
+  &__icons {
+    text-align: center;
+  }
+
+  &__icon {
+    width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

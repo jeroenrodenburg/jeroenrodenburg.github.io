@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>rodenburg.io</title>
   <meta name="keywords" content="Portfolio">
@@ -37,26 +39,36 @@
     </div>
     <div class="page-section__container">
       <div class="page-section__about">
-        <h2 class="page-section__title">Hello there!</h2>
+        <h1 class="page-section__title">Hello there!</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, aut, vitae sunt repellat labore est eum reprehenderit explicabo dolor commodi fuga ad nobis placeat excepturi vero debitis ipsam nostrum facilis.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, aut, vitae sunt repellat labore est eum reprehenderit explicabo dolor commodi fuga ad nobis placeat excepturi vero debitis ipsam nostrum facilis.</p>
       </div>
       <div class="page-section__work">
-        <h2 class="page-section__title">Work</h2>
+        <h1 class="page-section__title">Work</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, aut, vitae sunt repellat labore est eum reprehenderit explicabo dolor commodi fuga ad nobis placeat excepturi vero debitis ipsam nostrum facilis.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, aut, vitae sunt repellat labore est eum reprehenderit explicabo dolor commodi fuga ad nobis placeat excepturi vero debitis ipsam nostrum facilis.</p>
       </div>
     </div>
   </div>
 
+  <div class="page-section page-section--gray"></div>  
+
   <div class="page-section page-section--red">
-    <div class="page-section__container">
-      <h2>Lorem Ipsum</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, aut, vitae sunt repellat labore est eum reprehenderit explicabo dolor commodi fuga ad nobis placeat excepturi vero debitis ipsam nostrum facilis.</p>
+    <div class="powered-by">
+      <h2 class="powered-by__title">Powered by:</h2>
+      <div class="powered-by__icons">
+        <img class="powered-by__icon" src="../assets/images/html-5.svg" alt="HTML">
+        <img class="powered-by__icon" src="../assets/images/css-3.svg" alt="CSS">
+        <img class="powered-by__icon" src="../assets/images/javascript.svg" alt="Javascript">
+      </div>
     </div>
   </div>  
 
   <footer class="site-footer">
-    <span class="site-footer__email">jeroen@rodenburg.io</span>
+    <div class="site-footer__container">
+      <a href="mailto:jeroen@rodenburg.io" class="site-footer__email">jeroen@rodenburg.io</a>
+      <img class="site-footer__profile" src="../assets/images/profile.png" alt="Profile">
+    </div>
   </footer>
   
   <script src="App.js"></script>
