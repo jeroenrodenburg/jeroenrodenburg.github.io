@@ -6,7 +6,7 @@
   "scripts": {
     "gulpwatch": "gulp watch",
     "gulpstyles": "gulp styles",
-    "gulpscripts": "gulp scripts"
+    "gulpscripts": "gulp scripts --mode development"
   },
   "repository": {
     "type": "git",
@@ -37,6 +37,7 @@
     "webpack-cli": "^3.0.3"
   },
   "dependencies": {
+    "jquery": "^3.3.1",
     "normalize.css": "^8.0.0"
   }
 }

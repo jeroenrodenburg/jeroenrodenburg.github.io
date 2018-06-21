@@ -1,13 +1,11 @@
 .site-footer {
-  min-height: 20vh;
+  padding: 20px;
   text-align: center;
-  background-color: #42586A;
+  background-color: var(--darkGray);
 
   &__email {
-    margin-top: 50px;
-    display: inline-block;
-    font-size: 2rem;
-    font-weight: 100;
+    font-size: 40px;
+    font-weight: 700;
     color: var(--white);
   }
 }
