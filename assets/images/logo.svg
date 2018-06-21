@@ -1,46 +1,9 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 508 508" style="enable-background:new 0 0 508 508;" xml:space="preserve">
-<path style="fill:#41596B;" d="M486.8,0.75H21.2C9.5,0.75,0,10.35,0,22.05v139.2h508V22.05C508,10.35,498.5,0.75,486.8,0.75z"/>
-<path style="fill:#F2F2F2;" d="M0,161.25v324.8c0,11.7,9.5,21.2,21.2,21.2h465.5c11.7,0,21.2-9.5,21.2-21.2v-324.8H0z"/>
-<circle style="fill:#F2705B;" cx="62.1" cy="81.05" r="30"/>
-<circle style="fill:#FFD05C;" cx="155.7" cy="81.05" r="30"/>
-<circle style="fill:#89D6F7;" cx="249.2" cy="81.05" r="30"/>
-<g>
-	<polygon style="fill:#65C5B8;" points="142.9,430.55 46.6,334.25 142.9,238.05 174.8,269.95 110.5,334.25 174.8,398.65 	"/>
-	<polygon style="fill:#65C5B8;" points="365.1,430.55 333.2,398.65 397.5,334.25 333.2,269.95 365.1,238.05 461.4,334.25 	"/>
-</g>
-<polygon style="fill:#4FBFA8;" points="237,447.05 191.8,447.05 271,221.55 316.2,221.55 "/>
-<rect y="161.25" style="fill:#CDD5DF;" width="508" height="11.5"/>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
+<svg width="508" height="507" viewBox="0 0 508 507" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M486.8 0H21.2C9.5 0 0 9.6 0 21.3V160.5H508V21.3C508 9.6 498.5 0 486.8 0Z" fill="#41596B"/>
+<path d="M30 60C46.5685 60 60 46.5685 60 30C60 13.4315 46.5685 0 30 0C13.4315 0 0 13.4315 0 30C0 46.5685 13.4315 60 30 60Z" transform="translate(32.1 50.3)" fill="#F2705B"/>
+<path d="M30 60C46.5685 60 60 46.5685 60 30C60 13.4315 46.5685 0 30 0C13.4315 0 -3.05176e-06 13.4315 -3.05176e-06 30C-3.05176e-06 46.5685 13.4315 60 30 60Z" transform="translate(125.7 50.3)" fill="#FFD05C"/>
+<path d="M30 60C46.5685 60 60 46.5685 60 30C60 13.4315 46.5685 0 30 0C13.4315 0 -3.05176e-06 13.4315 -3.05176e-06 30C-3.05176e-06 46.5685 13.4315 60 30 60Z" transform="translate(219.2 50.3)" fill="#89D6F7"/>
+<path d="M508 0H0V11.5H508V0Z" transform="translate(0 160.5)" fill="#CDD5DF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 324.8V0H507.9V324.8C507.9 336.5 498.4 346 486.7 346H21.2C9.5 346 0 336.5 0 324.8ZM209.014 252.5H241.705L298.986 88.5H266.295L209.014 252.5ZM173.648 240.5L104 170.464L173.648 100.5L196.719 123.7L150.215 170.464L196.719 217.3L173.648 240.5ZM311.281 217.3L334.352 240.5L404 170.464L334.352 100.5L311.281 123.7L357.785 170.464L311.281 217.3Z" transform="translate(0 160.5)" fill="#F2F2F2"/>
+<path d="M508 0H0V11.5H508V0Z" transform="translate(0 161)" fill="#CDD5DF"/>
 </svg>

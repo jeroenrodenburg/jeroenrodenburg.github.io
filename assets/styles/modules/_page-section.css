@@ -34,21 +34,33 @@
   &__about {
     flex: 1;
     padding: 0 30px;
-    /* flex-basis: 95%; */
 
     &--is-hidden {
+      display: none;
       visibility: hidden;
+
+      @media (--medium-window) {
+        display: block;
+      }
     }
   }
 
   &__work {
     flex: 1;
-    /* flex-basis: 95%; */
-    visibility: hidden;
+    display: none;
     padding: 0 30px;
 
+    @media (--medium-window) {
+      display: block;
+      visibility: hidden;
+    }
+
     &--is-visible {
-      visibility: visible;
+      display: block;
+
+      @media (--medium-window) {
+        visibility: visible;
+      }
     }
   }
 

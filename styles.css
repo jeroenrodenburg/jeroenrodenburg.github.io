@@ -304,15 +304,33 @@ p {
 .site-header {
   padding: 20px 0 90px;
   overflow: hidden;
+  position: relative;
   /* background-color: var(--mainGreen); */
   background: linear-gradient(#22AFC5, #00E1B7);
   background: linear-gradient(var(--mainBlue), var(--mainGreen));
 }
 /* background-color: #63C6B8; */
+.site-header__overlay {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#00E1B7, #22AFC5);
+    background: linear-gradient(var(--mainGreen), var(--mainBlue));
+    transition: opacity 0.4s;
+    opacity: 0;
+  }
+.site-header__overlay--is-checked {
+      opacity: 1;
+    }
 .site-header__container {
     padding: 0 30px;
     max-width: 1360px;
     margin: 0 auto;
+    position: relative;
+    z-index: 1;
   }
 .site-header__name {
     margin: 0;
@@ -391,19 +409,34 @@ p {
     flex: 1;
     padding: 0 30px;
   }
-/* flex-basis: 95%; */
 .page-section__about--is-hidden {
+      display: none;
       visibility: hidden;
     }
+@media (min-width: 800px) {
+.page-section__about--is-hidden {
+        display: block
+    }
+      }
 .page-section__work {
     flex: 1;
-    /* flex-basis: 95%; */
-    visibility: hidden;
+    display: none;
     padding: 0 30px;
   }
-.page-section__work--is-visible {
-      visibility: visible;
+@media (min-width: 800px) {
+.page-section__work {
+      display: block;
+      visibility: hidden
+  }
     }
+.page-section__work--is-visible {
+      display: block;
+    }
+@media (min-width: 800px) {
+.page-section__work--is-visible {
+        visibility: visible
+    }
+      }
 /* &__work--is-visible {
     visibility: visible;
   } */
@@ -459,12 +492,12 @@ p {
   transition: .4s;
 }
 input:checked + .slider {
-  background-color: #FD4343;
-  background-color: var(--mainRed);
+  background-color: #22AFC5;
+  background-color: var(--mainBlue);
 }
 input:focus + .slider {
-  box-shadow: 0 0 1px #FD4343;
-  box-shadow: 0 0 1px var(--mainRed);
+  box-shadow: 0 0 1px #22AFC5;
+  box-shadow: 0 0 1px var(--mainBlue);
 }
 input:checked + .slider:before {
   -webkit-transform: translateX(26px);
