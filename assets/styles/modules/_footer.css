@@ -3,19 +3,25 @@
   background-color: var(--darkGray);
 
   &__container {
-    display: flex;
     padding: 0 30px;
     max-width: 1360px;
-    justify-content: flex-end;
-    align-items: center;
+    text-align: center;
+
+    @media (--small-window) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 
   &__profile {
-    width: 100px;
+    width: 90px;
     border-radius: 50%;
+    margin-top: 10px;
 
     @media (--small-window) {
       width: 125px;
+      margin-top: 0;
     }
   }
 
