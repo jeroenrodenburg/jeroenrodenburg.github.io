@@ -4,37 +4,37 @@
 
   &__container {
     padding: 0 30px;
-    max-width: 1360px;
+    max-width: 450px;
     text-align: center;
+    margin: 0 auto;
 
     @media (--small-window) {
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
       align-items: center;
     }
   }
 
   &__profile {
-    width: 90px;
-    border-radius: 50%;
-    margin-top: 10px;
+    display: none;
 
     @media (--small-window) {
-      width: 125px;
+      display: block;
+      width: 110px;
       margin-top: 0;
+      border-radius: 50%;
     }
   }
 
   &__email {
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-decoration: none;
     margin: 0;
-    margin-right: 20px;
     font-weight: 700;
     color: var(--white);
 
     @media (--small-window) {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
     }
   }
 }

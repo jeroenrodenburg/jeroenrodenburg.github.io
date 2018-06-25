@@ -19,4 +19,10 @@ a {
 p {
   font-weight: 300;
   color: var(--darkGray);
+  line-height: 1.5;
+}
+
+::selection {
+  background: var(--mainRed);
+  color: var(--white);
 }

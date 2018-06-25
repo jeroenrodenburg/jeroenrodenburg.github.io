@@ -1,0 +1,13 @@
+.btn {
+  background-color: var(--mainRed);
+  color: #FFF;
+  text-decoration: none;
+  text-align:center;
+  font-size: 5rem;
+  font-weight: 100;
+  display: inline-block;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+}
