@@ -1,19 +1,16 @@
 .powered-by {
-  padding: 20px;
-  
-  &__title {
-    margin-top: 0;
-    text-align: center;
-    font-weight: 100;
-  }
 
   &__icons {
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
   }
 
   &__icon {
-    width: 60px;
-    margin-left: 10px;
-    margin-right: 10px;
+    max-height: 50px;
+    max-width: 50px;
+    margin: 10px;
   }
 }

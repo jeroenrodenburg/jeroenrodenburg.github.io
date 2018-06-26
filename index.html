@@ -128,7 +128,7 @@
         <h1 class="page-section__title">Hello there!</h1>
         <p>My name is Jeroen, and I work as a front-end web developer out of Amsterdam. I like to build beautiful and often minimalistic websites, with a particular interest in using latest techniques and design methodologies.</p>
         <p>This wasn't always the case though. It was in the beginning of 2017, while being employed in my long time job as Trademark Attorney, when I came across an accelerated Code Academy program to learn web development within a matter of months. Since I strongly felt it was time for something totally different, I decided to quit my job and take on the challenge.</p>
-        <p>So far, it's certainly been a very interesting (learning) experience :) </p>
+        <p>So far, it's been a very interesting (learning) experience :) </p>
       </div>
       <div class="page-section__work">
         <h1 class="page-section__title">What else?</h1>
@@ -140,27 +140,37 @@
 
   <div class="page-section page-section--gray">
     <div class="page-section__button">
-      <a href="#" class="btn">+</a>
+      <a href="#" class="btn btn--round">+</a>
     </div>
-    <h2 class="page-section__quote">"Some inspirational quote maybe?"</h2>
+    <span class="page-section__quote">"Some inspirational quote here maybe?"</span>
   </div>  
 
   <div class="page-section page-section--red">
-    <div class="powered-by">
-      <h2 class="powered-by__title">Powered by:</h2>
-      <div class="powered-by__icons">
-        <img class="powered-by__icon" src="../assets/images/html-5.svg" alt="HTML">
-        <img class="powered-by__icon" src="../assets/images/css-3.svg" alt="CSS">
-        <img class="powered-by__icon" src="../assets/images/javascript.svg" alt="Javascript">
-      </div>
-    </div>
   </div>  
 
   <footer class="site-footer">
     <div class="site-footer__container">
-      <a href="mailto:jeroen@rodenburg.io" class="site-footer__email">jeroen@rodenburg.io</a>
-      <img class="site-footer__profile" src="../assets/images/profile.png" alt="Profile">
+      <div class="site-footer__left"> 
+      <div class="powered-by">
+          <h3 class="site-footer__title">Powered by</h3>
+          <div class="powered-by__icons">
+            <img class="powered-by__icon" src="../assets/images/html-5.svg" alt="HTML">
+            <img class="powered-by__icon" src="../assets/images/css-3.svg" alt="CSS">
+            <img class="powered-by__icon" src="../assets/images/javascript.svg" alt="Javascript">
+            <img class="powered-by__icon" src="../assets/images/gulp.svg" alt="Gulp">
+            <img class="powered-by__icon" src="../assets/images/postcss.svg" alt="PostCSS">
+            <img class="powered-by__icon" src="../assets/images/babel.svg" alt="Babel">
+          </div>
+        </div>
+      </div>  
+      <div class="site-footer__right">  
+        <h3 class="site-footer__title">Contact</h3>
+        <p class="site-footer__subtitle">Want to talk about interesting opportunities? Send me an e-mail.</p>
+        <a href="mailto:jeroen@rodenburg.io" class="btn">jeroen@rodenburg.io</a>
+      <!-- <img class="site-footer__profile" src="../assets/images/profile.png" alt="Profile"> -->
+      </div>
     </div>
+    <div class="site-footer__bottom"></div> 
   </footer>
   
   <script src="App.js"></script>
