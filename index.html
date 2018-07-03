@@ -20,8 +20,8 @@
     <div class="site-header__container">
       <h2 class="site-header__name">jeroen<span>rodenburg</span></h2>
       <div class="site-header__links">
-        <a href="https://www.linkedin.com/in/jeroenrodenburg/"><img src="./assets/images/linkedin.svg" alt="Linkedin"></a>
-        <a href="https://github.com/jeroenrodenburg"><img src="./assets/images/github.svg" alt="Github"></a>
+        <a href="https://www.linkedin.com/in/jeroenrodenburg/" target="_blank"><img src="./assets/images/linkedin.svg" alt="Linkedin"></a>
+        <a href="https://github.com/jeroenrodenburg" target="_blank"><img src="./assets/images/github.svg" alt="Github"></a>
       </div>
       <div class="site-header__logo">
         <img src="../assets/images/logo.svg" alt="Logo">
@@ -127,22 +127,38 @@
       <div class="page-section__about">
         <h1 class="page-section__title">Hello there!</h1>
         <p>My name is Jeroen, and I work as a front-end web developer out of Amsterdam. I like to build beautiful and often minimalistic websites, with a particular interest in using latest techniques and design methodologies.</p>
-        <p>This wasn't always the case though. It was in the beginning of 2017, while being employed in my long time job as Trademark Attorney, when I came across an accelerated Code Academy program to learn web development within a matter of months. Since I strongly felt it was time for something totally different, I decided to quit my job and take on the challenge.</p>
-        <p>So far, it's been a very interesting (learning) experience :) </p>
+        <p>This wasn't always the case though. It was in the beginning of 2017, while being employed in my long time job as Trademark Attorney, when I came across an accelerated Code Academy program to learn web development within a matter of months. Since I strongly felt it was time for a new and exciting direction, I decided to quit my job and take on that challenge.</p>
+        <p>It's been a very fun and rewarding experience so far.</p>
       </div>
       <div class="page-section__work">
         <h1 class="page-section__title">What else?</h1>
         <p>So what do I like to build with? I especially enjoy working on projects that are based on ReactJS or WordPress. The former because it allows for comprehensive interactive web applications and 'feels' like the future of development, the latter because it creates highly user-friendly websites that are fun to make and easily maintainable for a client.</p>
-        <p>Since this website itself is pretty concise, it doesn't really require the use of a big framework or CMS and is therefor build from scratch using HTML, CSS and some Javascript. The CSS is written by using PostCSS as a (pre)processor with the Preset Env plugin to enable future CSS syntax. Babel and Webpack take care of the compiling and bulding of th Javascript. Lastly Gulp handles the automation of these tasks during development.</p>
+        <p>Since this website itself is pretty concise, it doesn't really require the use of a big framework or CMS and for this reason is build from scratch using HTML, CSS and some Javascript. The CSS is written by using PostCSS as a (pre)processor with the Preset Env plugin to enable future CSS syntax. Babel and Webpack take care of the compiling and building of the Javascript, and Gulp handles the automation of all these tasks during development.</p>
       </div>
     </div>
   </div>
 
   <div class="page-section page-section--gray">
-    <div class="page-section__button">
-      <a href="#" class="btn btn--round">+</a>
+    <div class="page-section__container">
+      <h2 class="page-section__title page-section__title--thin">Portfolio</h2>
+      <p class="page-section__subtitle">A selection of my most recent projects</p>
     </div>
-    <span class="page-section__quote">"Some more content needs to go here"</span>
+    <div class="portfolio">
+      <div class="portfolio__container">
+        <div class="portfolio__item">
+          <a href="https://github.com/jeroenrodenburg/wordpress-starter-kit" target="_blank"><img class="portfolio__image" src="../assets/images/portfolio-1.png" alt="Portfolio item 1"></a>
+          <p><i>Wordpress starter kit</i> - My own boilerplate theme to start a new custom Wordpress project using Gulp, Webpack and PostCSS.</p>
+        </div>
+      <div class="portfolio__item">
+        <a href="http://www.romyrigter.nl" target="_blank"><img class="portfolio__image" src="../assets/images/portfolio-2.png" alt="Portfolio item 2"></a>
+        <p><i>Romy Rigter</i> - A Wordpress theme-based portfolio site for a freelance festival and theatre producer.</p>
+      </div>
+      <div class="portfolio__item">
+        <img class="portfolio__image" src="../assets/images/portfolio-3.png" alt="Portfolio item 3">
+        <p><i>IP Shares</i> - Design for the website of a decentralized Intellectual Property economy project.</p>
+      </div>    
+    </div>
+    </div>
   </div>  
 
   <div class="page-section page-section--red">
@@ -166,7 +182,7 @@
       </div>  
       <div class="site-footer__right">  
         <h3 class="site-footer__title">Contact</h3>
-        <p class="site-footer__subtitle">Want to work together or talk about interesting opportunities?</p>
+        <p class="site-footer__subtitle">Want to talk about interesting opportunities?</p>
         <a href="mailto:jeroen@rodenburg.io" class="btn">Send me an e-mail</a>
       <!-- <img class="site-footer__profile" src="../assets/images/profile.png" alt="Profile"> -->
       </div>

@@ -55,6 +55,12 @@
     }
   } */
 
+  &__button {
+    position: absolute;
+    top: -30px;
+    right: 10%;
+  }
+
   &__bottom {
     padding: 9px 0;
     width: 100vw;

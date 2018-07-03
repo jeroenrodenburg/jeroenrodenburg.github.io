@@ -1,12 +1,12 @@
-
 :root {
-  --black: #000;
+  --black: #263238;
   --white: #fff;
   --gray: #ccc;
   --darkGray: #42586A;
   --lightGray: #EEE;
   --mainGreen: #00E1B7;
   --mainBlue: #22AFC5;
+  /* --mainBlue: #0582BE; */
   --mainRed: #FD4343; 
   --mainRed2: #ED706A;
   --mainRed3: #FB6C52;

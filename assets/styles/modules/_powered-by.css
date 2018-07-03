@@ -3,7 +3,6 @@
   &__icons {
     display: flex;
     flex-wrap: wrap;
-    padding: 10px 0;
     justify-content: center;
     align-items: center;
   }

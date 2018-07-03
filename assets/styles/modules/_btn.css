@@ -4,17 +4,21 @@
   text-decoration: none;
   display: inline-block;
   padding: 0.75rem 1.2rem;
-  border-radius: 4px;
+  border-radius: 5px;
 
   &--round {
     border-radius: 50%;
-    width: 75px;
-    height: 75px;
-    font-size: 5rem;
-    line-height: 75px;
-    text-align:center;
-    font-weight: 100;
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+    line-height: 70px;
+    text-align: center;
+    font-weight: 300;
     padding: 0;
   }
+}
+
+.btn:hover {
+  opacity: 0.7;
 }
 
