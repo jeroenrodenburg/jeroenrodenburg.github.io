@@ -86,4 +86,21 @@
     color: var(--white);
     text-align: center;
   }
+
+  #code-logo {
+    animation: logoIn 1s ease-in-out forwards;
+    opacity: 0;
+  }
 }
+
+@keyframes logoIn {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
