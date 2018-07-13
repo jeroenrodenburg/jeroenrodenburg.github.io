@@ -9,10 +9,14 @@ class SwitchButton {
 
   events() {
     this.sliderButton.addEventListener('click', () => {
-      this.headerBackground.classList.toggle("site-header__overlay--is-checked");
-      this.workContent.classList.toggle("page-section__work--is-visible");
-      this.aboutContent.classList.toggle("page-section__about--is-hidden");
+      this.toggleSwitch();
     });
+  }
+
+  toggleSwitch() {
+    this.headerBackground.classList.toggle("site-header__overlay--is-checked");
+    this.workContent.classList.toggle("page-section__work--is-visible");
+    this.aboutContent.classList.toggle("page-section__about--is-hidden");
   }
 }
 
