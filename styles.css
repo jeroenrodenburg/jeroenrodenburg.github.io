@@ -484,8 +484,8 @@ p {
   }
 @media (min-width: 530px) {
 .page-section__container {
-      width: 75%;
-      padding: 0 20px 20px 20px
+      width: 75%
+      /* padding: 0 20px 20px 20px; */
   }
     }
 @media (min-width: 530px) {

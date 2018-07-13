@@ -41,7 +41,7 @@
 
     @media (--small-window) {
       width: 75%;
-      padding: 0 20px 20px 20px;
+      /* padding: 0 20px 20px 20px; */
     }
   }
 
