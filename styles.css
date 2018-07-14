@@ -713,7 +713,7 @@ input:checked + .slider:before {
       flex-basis: 30%
   }
     }
-@media (min-width: 1010px) {
+@media (min-width: 800px) {
 .portfolio__item {
       padding: 0 5px 20px 5px
   }

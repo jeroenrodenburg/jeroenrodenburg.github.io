@@ -21,7 +21,7 @@
       flex-basis: 30%;
     }
 
-    @media (--large-window) {
+    @media (--medium-window) {
       padding: 0 5px 20px 5px;
     }
   }
